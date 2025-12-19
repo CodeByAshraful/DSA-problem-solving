@@ -1,3 +1,7 @@
+// Platform: phitron
+// Problem: Check if a node can be visited or not in graph with bfs traverse
+// Difficulty: easy
+// Topic: graph
 #include<bits/stdc++.h>
 using namespace std;
 vector<int>adj_list[1005];
@@ -48,4 +52,34 @@ int main()
     cout<<"No"; 
 
    return 0;
+
 }
+/*
+input 1 :
+5 5
+0 1
+1 3
+3 2
+4 6
+3 5
+0
+4
+output 1 : No
+
+-----o-----
+
+input 2 :
+7 7
+0 1
+1 3
+1 4
+3 2
+4 6
+3 5
+4 5
+0
+4
+ 
+output 2 : Yes
+
+*/
