@@ -1,7 +1,8 @@
 /*
-A graph component is a group of nodes where every node 
-is connected (directly or indirectly) to each other,
- and no connection exists with nodes outside the group.
+Platform   : Phitron
+Problem    : count number of components of a graph.
+Difficulty : Easy
+Topic      : Graph, DFS
 */
 #include<bits/stdc++.h>
 using namespace std;
@@ -55,4 +56,8 @@ sample input :
 1 3
 sample output : 
 3
+-------------------o--------------------
+A graph component is a group of nodes where every node 
+is connected (directly or indirectly) to each other,
+ and no connection exists with nodes outside the group.
 */
